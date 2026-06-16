@@ -848,7 +848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "700R"
 			(at 191.77 71.1199 0)
 			(effects
 				(font
@@ -894,6 +894,76 @@
 			(project ""
 				(path "/9188f83a-afac-4426-a8f3-7a71e6901b42"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78e03650-90a2-4326-a3d9-6da9b1f92658")
+		(property "Reference" "R8"
+			(at 201.93 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "800R"
+			(at 201.93 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.612 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8a28e99-b223-4875-8745-f9d9905ee46a")
+		)
+		(pin "2"
+			(uuid "9faa7430-2a4f-4e00-965f-73d9ebeb6730")
+		)
+		(instances
+			(project ""
+				(path "/9188f83a-afac-4426-a8f3-7a71e6901b42"
+					(reference "R8")
 					(unit 1)
 				)
 			)
